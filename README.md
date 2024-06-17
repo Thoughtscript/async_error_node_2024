@@ -64,3 +64,8 @@ Observe that lines `54` and `28` are never logged:
 
 * Line `28` is ignored since the prior `.catch()` methods handle Exceptions, Errors, and Rejections.
 * Line `54` is ignored by `setTimeout()` although the `try-catch` block internal to the Timeout is used.
+
+## Resources and Links
+
+1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
+2. https://stackify.com/node-js-error-handling/#h-the-perils-of-async-try-catch
