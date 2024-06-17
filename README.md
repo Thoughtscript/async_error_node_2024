@@ -1,5 +1,7 @@
 # async_error_node
 
+[![](https://img.shields.io/badge/Node-18.13.0-333.svg)](https://nodejs.org/)
+
 Review of Error Handling in Node motivated by [this](https://stackify.com/node-js-error-handling/#h-the-perils-of-async-try-catch) article.
 
 Specifically:
@@ -25,7 +27,6 @@ Consider:
 
    This acts as a *defacto* `catch` block for any `Error` that bubbles up to the top-level `process` itself. Even Asynchronous ones.
 3. Using a `try-catch` block with `async`-`await` notation is (probably most-)often encountered.
-4. 
 
 ## Topics
 
