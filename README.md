@@ -12,7 +12,7 @@ I think that's not the most accurate, best, precise, or most comprehensive sugge
 
 Consider:
 
-1. **Error Handling** *within* an Asynchronous Function, Timeout, Interval, Spawn or Forked Exec. (Will likely **Synchroous** internal to the Asynchronous Function and will therefore be a `try-catch` block.)
+1. **Error Handling** *within* an Asynchronous Function, Timeout, Interval, Spawn or Forked Exec. (Will likely be **Synchronous** internal to the Asynchronous Function and will therefore use a `try-catch` block.)
 2. I typically combine a `try-catch` block with a `process.on('uncaughtException', ...)` event listener:
    
    ```javascript
