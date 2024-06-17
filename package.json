@@ -1,0 +1,13 @@
+{
+    "name": "async_error_node",
+    "version": "1.0.0",
+    "description": "",
+    "repository": "",
+    "main": "main.js",
+    "engines": {
+        "node": "=18.13.0"
+    },
+    "scripts": { },
+    "dependencies": {
+    }
+}
